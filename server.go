@@ -5,6 +5,8 @@ import (
 	"net/http"
 	"os"
 
+	"graphql-server-go/internal/pkg/db/migrations/database"
+
 	"github.com/99designs/gqlgen/graphql/handler"
 )
 
